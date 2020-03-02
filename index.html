@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>Home</title>
+    <!--Bootstrap overrides-->
     <style>
       .bg-primary{background-color: #c93512 !important;}
       .bg-secondary{background-color: #d3ab76 !important;}
@@ -41,10 +42,11 @@
   </head>
   <body>
     <div class="container">
+      <!--Main Navigation Bar-->
       <nav class="navbar navbar-expand-lg navbar-light bg-primary">
         <a class="navbar-brand" href="#">
           <img src="logo.png" width="35" height="35" class="d-inline-block align-top" alt="">
-          BAM
+          D&D Starter Guide
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
           <span class="navbar-toggler-icon"></span>
@@ -61,10 +63,12 @@
             </li>
           </ul>
         </div>
+        <!--Audio source-->
         <audio controls autoplay>
           <source src="tavern.mp3" type="audio/mpeg">
         </audio>
       </nav>
+      <!--Blockquote-->
       <div class="jumbotron">
         <blockquote class="blockquote text-right">
           <h1 class="display-4">There's a call to adventure. It's something in the inner psyche of humanity...</h1>
@@ -72,6 +76,7 @@
         </blockquote>
       </div>
       <div class="row">
+        <!--Brief overview of site-->
         <div class="col-sm-2">
           <div class="card bg-secondary">
             <div class="card-body text-center">
@@ -80,23 +85,20 @@
             </div>
           </div>
         </div>
+        <!--Video embed-->
         <div class="col-sm-8">
           <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/A4BuL886bJA"></iframe>
           </div>
         </div>
+        <!--Sources for site information-->
         <div class="col-sm-2">
           <div class="card bg-secondary">
             <div class="card-body text-center">
               <h5 class="card-title">Resources</h5>
-              <ul>
-                <a href="https://www.dndbeyond.com/" class="card-link">DnD Beyond</a>
-                <li>Excellent tool for following along with player attributes as you progress through a campaign</li>
-                <a href="https://www.dandwiki.com/wiki/" Beclass="card-link">DnD Wiki</a>
-                <li>Library full of resoources for official classes, as well as custom classes made by other players</li>
-                <a href="https://github.com/bmenezes13/bmenezes13.github.io" class="card-link">GitHub Repo</a>
-                <li>Check out the code for this site at anytime</li>
-              </ul>
+              <a href="https://www.dndbeyond.com/" class="card-link">DnD Beyond</a>
+              <a href="https://www.dandwiki.com/wiki/" Beclass="card-link">DnD Wiki</a>
+              <a href="https://github.com/bmenezes13/bmenezes13.github.io" class="card-link">GitHub Repo</a>
             </div>
           </div>
         </div>
